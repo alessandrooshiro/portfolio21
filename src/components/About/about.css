@@ -1,0 +1,63 @@
+.about-container {
+    width: 80vw;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 120px;
+    ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.highlight {
+    background: url('../../images/brush-stroke-banner-6.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0px;
+}
+
+.about-left {
+    width: 50%;
+}
+
+.about-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.about-paragraph {
+    width: 70%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-container {
+        width: 80vw;
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-top: 80px;
+        ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-family: azo-sans-web, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+    }
+    .about-left {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .about-paragraph {
+        width: 100%;
+        font-size: 16px;
+    }
+}

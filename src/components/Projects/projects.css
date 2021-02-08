@@ -1,0 +1,113 @@
+.projects-container {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    overflow: hidden;
+}
+
+.projects-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.projects-image1 {
+    margin-left: 10%;
+    width: 80%;
+    height: 45vw;
+    margin-bottom: 60px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.projects-image1:hover {
+    transform: scale(0.98);
+}
+
+.projects-image1 img {
+    transition: 1s;
+}
+
+.projects-image1 img:hover {
+    transform: scale(1.05);
+}
+
+.projects-extra-info {
+    width: 120%;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects-image2 {
+    width: calc( 62.5% - 20px);
+    height: calc( 0.5625 * (40vw - 20px));
+    margin-bottom: 150px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.projects-paragraph {
+    width: calc( 62.5% - 20px);
+    margin-bottom: 150px;
+    z-index: 1;
+    overflow: hidden;
+    padding: 20px;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+}
+
+.projects-image2 img {
+    transition: 1s;
+}
+
+.projects-image2 img:hover {
+    transform: scale(1.05);
+}
+
+.projects-link {
+    text-decoration: underline;
+    color: #FFB100;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+    .projects-container {
+        width: 90vw;
+        margin-top: 0px;
+    }
+    .projects-title {
+        margin-top: 60px;
+        font-size: 14px;
+    }
+    .projects-image1 {
+        margin-left: 0%;
+        width: 90vw;
+        height: 50.625vw;
+        margin-bottom: 20px;
+    }
+    .projects-extra-info {
+        width: 100%;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+    .projects-image2 {
+        width: 90vw;
+        height: 50.625vw;
+        margin-bottom: 20px;
+        z-index: 1;
+        overflow: hidden;
+    }
+}

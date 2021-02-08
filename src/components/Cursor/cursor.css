@@ -1,0 +1,13 @@
+.cursor {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #FFB100;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.2s ease;
+    transition-property: background, border, transform, left, right;
+    transform-origin: 150% 150%;
+    z-index: 9999;
+}
