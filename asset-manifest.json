@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio21/static/css/main.7b0c1652.chunk.css",
+    "main.js": "/portfolio21/static/js/main.9195aa9a.chunk.js",
+    "main.js.map": "/portfolio21/static/js/main.9195aa9a.chunk.js.map",
+    "runtime-main.js": "/portfolio21/static/js/runtime-main.f6baa3c1.js",
+    "runtime-main.js.map": "/portfolio21/static/js/runtime-main.f6baa3c1.js.map",
+    "static/js/2.699a3331.chunk.js": "/portfolio21/static/js/2.699a3331.chunk.js",
+    "static/js/2.699a3331.chunk.js.map": "/portfolio21/static/js/2.699a3331.chunk.js.map",
+    "index.html": "/portfolio21/index.html",
+    "static/css/main.7b0c1652.chunk.css.map": "/portfolio21/static/css/main.7b0c1652.chunk.css.map",
+    "static/js/2.699a3331.chunk.js.LICENSE.txt": "/portfolio21/static/js/2.699a3331.chunk.js.LICENSE.txt",
+    "static/media/about.css": "/portfolio21/static/media/brush-stroke-banner-6.79808a67.svg",
+    "static/media/logo@2x.88cc0dcf.png": "/portfolio21/static/media/logo@2x.88cc0dcf.png",
+    "static/media/real2u1@2x.a6f611ea.png": "/portfolio21/static/media/real2u1@2x.a6f611ea.png",
+    "static/media/real2u2.61f82434.png": "/portfolio21/static/media/real2u2.61f82434.png",
+    "static/media/real2u3.39fc91d5.png": "/portfolio21/static/media/real2u3.39fc91d5.png",
+    "static/media/renderfarm1@2x.479b9d95.png": "/portfolio21/static/media/renderfarm1@2x.479b9d95.png",
+    "static/media/renderfarm2@2x.3d3bbbe2.png": "/portfolio21/static/media/renderfarm2@2x.3d3bbbe2.png",
+    "static/media/renderfarm3@2x.584e4a15.png": "/portfolio21/static/media/renderfarm3@2x.584e4a15.png",
+    "static/media/reviewer2u.7d126048.png": "/portfolio21/static/media/reviewer2u.7d126048.png",
+    "static/media/reviewer2u2.d9a4777f.png": "/portfolio21/static/media/reviewer2u2.d9a4777f.png",
+    "static/media/reviewer2u3.57291eb9.png": "/portfolio21/static/media/reviewer2u3.57291eb9.png",
+    "static/media/reviewer2u4.3f1bc81c.png": "/portfolio21/static/media/reviewer2u4.3f1bc81c.png",
+    "static/media/reviewer2u5.a827d3a7.png": "/portfolio21/static/media/reviewer2u5.a827d3a7.png",
+    "static/media/reviewer2u6.68d6142c.png": "/portfolio21/static/media/reviewer2u6.68d6142c.png",
+    "static/media/reviewer2u7.5fe8f2fd.png": "/portfolio21/static/media/reviewer2u7.5fe8f2fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6baa3c1.js",
+    "static/js/2.699a3331.chunk.js",
+    "static/css/main.7b0c1652.chunk.css",
+    "static/js/main.9195aa9a.chunk.js"
+  ]
+}
