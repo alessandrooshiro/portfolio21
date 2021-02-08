@@ -11,14 +11,14 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 export default function Routes() {
     return (
         <ParallaxProvider>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
                 <Switch>
                     <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/reviewer2u">
+                    <Route exact path="/reviewer2u">
                         <Reviewer2u />
                     </Route>
                 </Switch>
